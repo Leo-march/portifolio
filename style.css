@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url('DMSans-VariableFont_opsz\,wght.ttf')
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundo {
+    background-color: #171717;
+    width: 1440px;
+    height: 2784px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #F9F9F9;
+    font-family: DMSans;
+}
+
+.inicio {
+    width: 1284px;
+    height: 604px;
+    padding-top: 35px;
+    padding-left: 98px;
+}
+
+.textonav {
+    width: 469px;
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9F9F9;
+    ;
+}
+
+.listanav {
+    gap: 564px;
+    list-style: none;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fulanodetal {
+    width: 1284px;
+    height: 570px;
+    display: flex;
+    gap: 391px;
+    padding: 60px;
+}
