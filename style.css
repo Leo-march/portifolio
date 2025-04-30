@@ -10,15 +10,20 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    background-color: var(--background-color, #171717);
+    width: 100%;
+    font-family: "DM Sans";
+    position: relative;
+    z-index: 0;
+}
+
+h1{
+    font-size: 26px;
 }
 
 .fundo {
     background-color: #171717;
-    width: 1440px;
-    height: 2784px;
+    width:100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,7 +35,7 @@ body {
     width: 1284px;
     height: 604px;
     padding-top: 35px;
-    padding-left: 98px;
+    gap: 60px;
 }
 
 .textonav {
@@ -45,7 +50,6 @@ body {
 }
 
 .listanav {
-    gap: 564px;
     list-style: none;
     font-size: 26px;
     display: flex;
@@ -57,6 +61,74 @@ body {
     width: 1284px;
     height: 570px;
     display: flex;
-    gap: 391px;
-    padding: 60px;
+    padding-top: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ola {
+    font-size: 32px;
+}
+
+.partedev {
+    font-size: 22px;
+    color:#828282;
+}
+
+.imgminha {
+    height: 430px;
+    width: 320px;
+    border-radius: 140px;
+}
+
+.contato{
+    background-color: #2f2d80;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    padding-inline: 15px;
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    top: 10px;
+    left: 95px;
+}
+
+.sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:90px ;
+}
+
+.sobremim h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.psobremim{
+    font-size: 18px;
+    color: #828282;
+    width: 75%;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.linkedinicon, .githubicon, .emailicon {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
 }
