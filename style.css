@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'DM-Sans', sans-serif
 }
 
-@font-face {
-    font-family: DMSans;
-    src: url('DMSans-VariableFont_opsz\,wght.ttf')
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -29,6 +31,11 @@ h1{
     flex-direction: column;
     color: #F9F9F9;
     font-family: DMSans;
+}
+
+li a{
+    color: #F9F9F9;
+    text-decoration: none;
 }
 
 .inicio {
@@ -95,7 +102,7 @@ h1{
     left: 95px;
 }
 
-.sobremim{
+#sobremim{
     display: flex;
     flex-direction: column;
     align-items: center;
